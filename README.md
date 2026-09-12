@@ -45,7 +45,10 @@ python src/main.py 8002
 
 ## Команды stdin
 Команда         	       Что делает
+
 ping <host> <port>	       Отправляет PING указанному узлу
+
 send <host:port> <text>	   Отправляет MESSAGE
+
 quit	                   Завершает работу узла
 
