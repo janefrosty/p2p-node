@@ -1,0 +1,33 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Состояние узлов (ключи!)
+state/
+
+# Результаты экспериментов
+results/raw/*.csv
+results/raw/*.json
+experiments/graphs/*.png
+report/*.pdf
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
